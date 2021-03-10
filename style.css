@@ -1,0 +1,690 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+#myBtn {
+
+    display: none;
+    position: fixed;
+    bottom: 17px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #527ea7;
+    color: white;
+    cursor: pointer;
+    padding: 12px;
+   
+    border-radius: 32px 32px 32px 32px;
+  }
+  
+  #myBtn:hover {
+    background-color: rgb(104, 188, 194);
+  }
+/* NAVBAR */
+
+.nav-item{
+    
+    margin: 0px 9px;
+}
+.nav-item:hover{
+    text-decoration: underline;
+}
+
+.bg-img{
+    /* background-image: url("/3.jpg"); */
+    background: #553be6;
+    background-image: -webkit-linear-gradient(45deg, rgb(85, 59, 230) 0%, rgb(168, 127, 250) 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     height: auto;
+    position: relative;
+    
+}
+
+.topnav{
+    background-color: transparent;
+}
+
+
+.navbar .navbar-brand{
+    color: white;
+    /* font-weight: 500; */
+
+}
+.navbar{
+    font-size: 11px;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+.navbar .navbar-nav .nav-link{
+    
+    color: white;
+    font-weight: 400;
+
+}
+
+.navbar .navbar-nav .nav-link:hover{
+    
+    text-decoration: underline;
+
+}
+
+
+/* MAIN-SECTION */
+
+.heading{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.startBtn{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    border-radius: 25px 25px 25px 0;
+    background: #1fb6fc;
+    border: 1px solid #1fb6fc;
+    color: white;
+    border: none;
+    margin: 5px;
+    padding: 15px 25px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+.callBtn{
+    /* font-family: 'Roboto', sans-serif; */
+    font-size: 14px;
+    border-radius: 25px 25px 25px 0;
+    background: #bc6ff1;
+    border: 1px solid #bc6ff1;
+    color: white;
+    margin: 5px;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+.startBtn:hover{
+    border-radius: 0 25px 25px 25px ;
+    background-color: #1fb6fc;
+    color: white;
+    transition: all 0.5s ease-in;
+    
+}
+
+.callBtn:hover{
+    border-radius: 0 25px 25px 25px;
+    background: #bc6ff1;
+    color: white;
+    transition: all 0.5s ease-in;
+
+ 
+}
+
+.mainHeading{
+    margin-left: 23%;
+}
+.paraHeading{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: white;
+}
+
+/* SOCIAL ICON */
+
+.socialIcon{
+    color: white;
+    padding-right: 18px;
+    margin-top: 28px;
+    padding-bottom: 16px
+    
+}
+
+.socialIcon .fa{
+    padding: 0 12px;
+}
+ 
+/* SERVICE SECTION */
+.serviceSection{
+    margin-top: 50px;
+}
+
+
+.whySection{
+    padding: 10% 0;
+}
+
+.whySection h6{
+    color: #1fb6fc;
+}
+
+.whySection p{
+    padding-right: 30px;
+    padding-top: 12px;
+}
+
+.serviceCard{
+    border-radius: 5px;
+}
+
+.serviceCard:hover{
+    background: #b4dbec;
+    color: white;
+}
+.serviceBtn{
+    font-size: 14px;
+    border-radius: 25px 25px 25px 0;
+    background: #1fb6fc;
+    border: 1px solid #1fb6fc;
+    color: white;
+    border: none;
+    margin: 5px;
+    padding: 15px 25px;
+    cursor: pointer;
+    text-decoration: none;
+
+    
+}
+.serviceBtn:hover{
+    border-radius: 0 25px 25px 25px ;
+    background-color: #1fb6fc;
+    color: white;
+    transition: all 0.5s ease-in;
+    
+}
+
+.cardSection p{
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+}
+ /* .card .cardSection{
+     padding: 2px;
+ }
+
+ .card .cardSection:hover{
+    background-color: blue;
+ } */
+.cardImg img{
+    vertical-align: middle;
+    width: 20%;
+    justify-content: center;
+    margin: 0% 38%;
+    margin-top: 9%;
+    margin-bottom: 3%;
+}
+
+.valueRow h1{
+
+    color: #1fb6fc;
+}
+.aboutSection{
+    margin-top: 80px;
+}
+
+.aboutImg img{
+    height: 315px;
+}
+
+.about{
+    font-family: 'Roboto', sans-serif;
+    color: #1fb6fc;
+}
+
+.aboutPara{
+    font-family: 'Roboto', sans-serif;
+    padding-right: 5px;
+}
+.aboutSection button{
+    font-size: 14px;
+    border-radius: 25px 25px 25px 0;
+    background: #1fb6fc;
+    border: 1px solid #1fb6fc;
+    color: white;
+    border: none;
+    margin: 5px;
+    padding: 15px 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.aboutSection button:hover{
+    border-radius: 0 25px 25px 25px ;
+    background-color: #1fb6fc;
+    color: white;
+    transition: all 0.5s ease-in;
+
+}
+.team{
+    color: #1fb6fc;
+    
+}
+
+.teamPara{
+    font-family: 'Roboto', sans-serif;
+    
+    padding: 0 130px;
+}
+.teamSection{
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+.teamRow p{
+    font-family: 'Roboto', sans-serif;
+    
+    font-size: 12px;
+
+}
+
+.testimonialMain{
+    width: 100%;
+    background-image: linear-gradient(lightgrey, white);
+}
+.icon{
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: #1fb6fc;
+}
+
+.icon .fa{
+    color: white;
+}
+.testimonialSection{
+    padding-top: 81px;
+    padding-bottom: 81px;
+}
+.textp{
+    color: #1fb6fc;
+}
+.circleImg{
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+}
+
+.whySectionMain{
+    height: 380px;
+    width: auto;
+    background: #553be6;
+    background-image: -webkit-linear-gradient(45deg, rgb(85, 59, 230) 0%, rgb(168, 127, 250) 100%);
+}
+.whySection .whyh6{
+    font-family: 'Roboto', sans-serif;
+
+    color: white;
+}
+
+.whyh3{
+    font-family: 'Roboto', sans-serif;
+
+    color: white;
+}
+
+.whyp{
+    font-family: 'Roboto', sans-serif;
+
+    color: white;
+}
+.whyRow h6{
+    font-family: 'Roboto', sans-serif;
+
+    color: black;
+    padding-top: 20px;
+}
+
+.choose{
+    font-family: 'Roboto', sans-serif;
+
+    padding: 5% 0;
+}
+
+.cardSection{
+    border-radius: 5px;
+}
+
+.cardSection:hover{
+    background: #b4dbec;
+    border-color: #b4dbec;
+    color: white;
+}
+.cardSection p{
+    padding: 0 0;
+    color: grey;
+}
+.whypara{
+    font-family: 'Roboto', sans-serif;
+
+    padding: 20%;
+    background-image: linear-gradient(lightgrey,white);
+
+}
+.portfolioSection{
+    margin-top: -150px;
+}
+.portfolioRow button{
+    margin:0;
+    padding: 0 5px;
+    border: none;
+    border-radius: 8px 8px 8px 0;
+    background: none;
+    color: gray;
+}
+.portfolioRow button:hover{
+
+    border-radius: 0 25px 25px 25px ;
+    background-color: #1fb6fc;
+    color: white;
+    transition: all 0.5s ease-in;
+
+}
+
+.portfolioRow .card{
+    width: 107%;
+}
+.portfolioRow .card-body{
+    font-size: 14px;
+}
+
+.portfolioRow .card-body:hover{
+    background: rgb(235, 248, 248);
+}
+.viewMore{
+    font-family: 'Roboto', sans-serif;
+
+    color: #1fb6fc;
+
+}
+.viewMore:hover{
+    color: #47c2ad;
+    text-decoration: underline;
+}
+
+.pricingSection{
+    margin-top: 80px;
+}
+.pricingRow ul{
+    list-style: none;
+}
+
+.pricingRow ul li{
+    padding: 10px 5px;
+    list-style: none;
+}
+
+.pricingRow ul li::before{
+    content: '✓';
+}
+
+.pricingRow .btn{
+    font-size: 14px;
+    border-radius: 25px 25px 25px 0;
+    background: #1fb6fc;
+    border: 1px solid #1fb6fc;
+    color: white;
+    border: none;
+    margin: 5px;
+    padding: 15px 25px;
+    cursor: pointer;
+
+    text-decoration: none;
+       
+}
+.pricingRow .btn:hover{
+    border-radius: 0 25px 25px 25px ;
+    background-color: #1fb6fc;
+    color: white;
+    transition: all 0.5s ease-in;
+
+}
+.pricingRow h1{
+    color: #1fb6fc;
+}
+
+.pricingRow p{
+    font-weight: bold;
+}
+
+.price{
+    border-radius: 5px;
+}
+
+.price:hover{
+    background: #b4dbec;
+    
+}
+
+.blogRow .card-body p {
+    font-weight: bold;
+}
+
+.blogSectionMain{
+    background-image: linear-gradient(lightgrey,white);
+    margin-top: 70px;
+}
+
+.blogSection{
+    padding-top: 55px;
+    padding-bottom: 69px;
+}
+
+ .cardBlog p{
+    font-family: 'Roboto', sans-serif;
+
+    padding-left: 3px;
+    font-size: 15px; 
+}
+.cardBlog span{
+    font-family: 'Roboto', sans-serif;
+
+    color: #1fb6fc;
+    font-size: 12px;
+}
+
+.blogRow .cardBlog{
+    padding: 5px;
+}
+
+.newletterSectionMain{
+    height: 140px;
+    background: #553be6;
+    background-image: -webkit-linear-gradient(45deg, rgb(85, 59, 230) 0%, rgb(168, 127, 250) 100%);
+}
+
+.newletter{
+    color: white;
+}
+
+.newletterRow input{
+    color: white;
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    font-size: 22px;
+    outline: none;
+   
+}
+
+.rowFooter{
+    padding-left: 88px;
+}
+.footerOneMain{
+    background-color: rgb(226, 224, 224);
+    padding-top: 55px;
+    padding-bottom: 40px;
+}
+
+.socialIconBottom{
+    padding-left: 0;
+}
+.socialIconBottom .fa{
+    
+    color: black;
+    margin: 0 5px;
+}
+
+.explore ul{
+    list-style: none;
+}
+
+.explore ul li::before{
+    content: '✓';
+
+}
+
+.media img{
+    height: 20px;
+}
+
+.explore ul{
+    padding: 0;
+}
+
+.footerheading{
+    font-family: 'Roboto', sans-serif;
+
+    color: #1fb6fc;
+}
+.footerMain{
+    height: 80px;
+    background: #553be6;
+    background-image: -webkit-linear-gradient(45deg, rgb(85, 59, 230) 0%, rgb(168, 127, 250) 100%);
+}
+.footer p{
+    font-family: 'Roboto', sans-serif;
+
+    padding-top: 29px;
+    color: rgb(238, 232, 232);
+    
+
+}
+.recent h6{
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 12px;
+}
+
+
+/* MEDIA */
+
+@media only screen and (max-width:780px){
+    
+   
+    .paraHeading {
+    
+        padding: 15px;
+    }
+    .whySection p {
+        padding-right: 0px;
+        padding-top: 11px;
+    }
+
+    .aboutImg img {
+        height: 205px;
+    }
+    .aboutCustom{
+        text-align: center;
+    }
+
+    .Customabout{
+        padding: 15px;
+    }
+    .whySection{
+        text-align: center;
+
+    }
+
+    .whySection p{
+        padding: 15px;
+        
+    }
+    
+    .whySectionCustom{
+        height: auto;
+        padding-top: 60px;
+    }
+
+    .valueRow p{
+        margin-top: 15px;
+    }
+
+    .valueRow .text-center{
+        margin-bottom: 20px;
+    }
+    
+    .testRow p{
+        width: 30vw;
+    }
+
+    .teamPara {
+        padding: 0px 30px;
+    }
+
+    .textp{
+        font-size: 10px;
+    }
+    .testimonialSection {
+        padding-top: 60px;
+        padding-bottom: 17px
+    }
+    
+    .whypara {
+        padding: 10%
+    }
+    .portfolioSection {
+        margin-top: 10px;
+    }
+    .newletterCustom{
+        height: auto;
+    }
+    .explore{
+        text-align: center;
+    }
+    .rowFooter {
+        margin-top: 20px;
+        padding-left: 27px;
+        text-align: center;
+    }
+
+    .rowFooter p{
+        margin-top: 20px;
+    margin-bottom: 20px;
+    }
+
+    .socialIconBottom .fa{
+        padding:2px;
+    }
+
+    .footer p{
+        font-size: 15px;
+    }
+
+    }
+
+    .zoom {
+        
+        transition: transform .1s; /* Animation */
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+      }
+      
+      .zoom:hover {
+        
+        transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+      }
